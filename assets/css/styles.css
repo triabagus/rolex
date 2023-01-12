@@ -258,9 +258,99 @@ button {
 }
 
 /*=============== HOME ===============*/
+.home__container{
+  position: relative;
+  row-gap: 2.5rem;
+}
+
+.home__img{
+  width: 240px;
+}
+
+.home__img-bg{
+  background: var(--first-color);
+  width: 258px;
+  height: 430px;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  justify-self: flex-end;
+  transform: translateX(1.5rem);
+}
+
+.home__social{
+  position: absolute;
+  top: 35%;
+  left: -5rem;
+  transform: rotate(-90deg);
+  display: flex;
+  column-gap: 1rem;
+}
+
+.home__social-link{
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+  transition: .3s;
+}
+
+.home__social-link:hover{
+  color: var(--title-color);
+}
+
+.home__title{
+  font-size: var(--biggest-font-size);
+  font-weight: var(--font-bold);
+  margin-bottom: var(--mb-1);
+}
+
+.home__description{
+  margin-bottom: var(--mb-1-5);
+}
+
+.home__price{
+  display: inline-block;
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-medium);
+  color: var(--first-color);
+  margin-bottom: var(--mb-3);
+}
+
+.home__btns{
+  display: flex;
+  align-center;
+}
+
+.home__button{
+  box-shadow: 0 12px 24px hsla(0, 0%, 10%, .2);
+}
 
 /*=============== BUTTONS ===============*/
+.button{
+  display: inline-block;
+  background: var(--button-color);
+  color: #fff;
+  padding: 1.25rem 2rem;
+  font-weight: var(--font-medium);
+  transition: .2s;
+}
 
+.button:hover{
+  background: var(--button-color-alt);
+}
+
+.button--gray{
+  background: hsl(0, 0%, 75%);
+  color: var(--title-color);
+}
+
+.button--gray:hover{
+  background: hsl(0, 0%, 63%);
+}
+
+.button--small{
+  padding: 1rem 1.5rem;
+}
 
 /*=============== FEATURED ===============*/
 
