@@ -250,7 +250,10 @@ button {
 }
 
 /* Change background header */
-
+.scroll-header{
+  background: var(--body-color);
+  box-shadow: 0 1px 4px hsla(0, 4%, 15%, .10);
+}
 
 /* Active link */
 .active-link{
