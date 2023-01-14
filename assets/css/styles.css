@@ -109,10 +109,19 @@ button {
 /*=============== THEME ===============*/
 /*========== Variables Dark theme ==========*/
 
+
+/*========== Button Dark/Light ==========*/
+.change-theme{
+  color: var(--title-color);
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
 /*========== 
     Color changes in some parts of 
     the website, in dark theme 
 ==========*/
+
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
@@ -383,6 +392,7 @@ button {
 /* Show Scroll Up*/
 
 /*=============== SCROLL BAR ===============*/
+
 
 /*=============== CART ===============*/
 .cart{
