@@ -604,7 +604,17 @@ button {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 320px){
 
+  .story__square,
+  .story__img{
+    width: 180px;
+  }
+
+  .story__square{
+    height: 180px;
+  }
+}
 /* For medium devices */
 
 /* For large devices */
