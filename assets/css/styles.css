@@ -435,7 +435,38 @@ button {
 }
 
 /*=============== STORY ===============*/
+.story__container{
+  row-gap: 7.5rem;
+}
 
+.story__title{
+  font-size: var(--h1-font-size);
+  margin-bottom: var(--mb-1);
+}
+
+.story__description{
+  margin-bottom: var(--mb-2-5);
+}
+
+.story__images{
+  position: relative;
+}
+
+.story__images,
+.story__square{
+  width: 250px;
+}
+
+.story__square{
+  height: 250px;
+  background: var(--first-color);
+}
+
+.story__img{
+  position: absolute;
+  top: -3rem;
+  left: 3rem;
+}
 
 /*=============== PRODUCTS ===============*/
 
