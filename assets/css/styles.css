@@ -587,7 +587,7 @@ button {
 .testimonial__square{
   height: 250px;
   background: var(--first-color);
-  margin-leftL auto;
+  margin-left: auto;
 }
 
 .testimonial__img{
@@ -596,7 +596,34 @@ button {
   top: 3rem; 
 }
 
+.testimonial__swiper{
+  margin-left: initial;
+  margin-right: initial;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after{
+  content: '';
+}
+
 /* Swiper class */
+.swiper-button-next,
+.swiper-button-prev{
+  top: initial;
+  bottom: 5%;
+  width: initial;
+  height: initial;
+  background: var(--container-color);
+  box-shadow: 0 4px 12px hsla(0, 0%, 20%, .1);
+  padding: .25rem;
+  font-size: 1.5rem;
+  color: var(--first-color);
+}
+
+.swiper-button-next{
+  right: initial;
+  left: 4rem;
+}
 
 /*=============== NEW ===============*/
 
