@@ -523,13 +523,13 @@ button {
 }
 
 /*=============== TESTIMONIAL ===============*/
-.testimonial__container{
+.testimonial__container {
   row-gap: 4rem;
 }
 
-.testimonial__quote{
+.testimonial__quote {
   display: inline-flex;
-  background: var(--container-color);
+  background-color: var(--container-color);
   padding: .5rem .75rem;
   font-size: 1.5rem;
   color: var(--first-color);
@@ -537,90 +537,90 @@ button {
   margin-bottom: var(--mb-2);
 }
 
-.testimonial__description{
+.testimonial__description {
   margin-bottom: var(--mb-1);
 }
 
-.testimonial__date{
+.testimonial__date {
   font-size: var(--normal-font-size);
   margin-bottom: var(--mb-2);
 }
 
-.testimonial__perfil{
+.testimonial__perfil {
   display: flex;
   align-items: center;
   column-gap: 1rem;
   margin-bottom: 7rem;
 }
 
-.testimonial__perfil-img{
+.testimonial__perfil-img {
   width: 60px;
   height: 60px;
   border-radius: 3rem;
 }
 
-.testimonial__perfil-data{
+.testimonial__perfil-data {
   display: flex;
   flex-direction: column;
   row-gap: .5rem;
 }
 
-.testimonial__perfil-name{
+.testimonial__perfil-name {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
   color: var(--title-color);
 }
 
-.testimonial__perfil-detail{
+.testimonial__perfil-detail {
   font-size: var(--small-font-size);
 }
 
-.testimonial__images{
+.testimonial__images {
   position: relative;
 }
 
-.testimonial__img,
-.testimonial__square{
+.testimonial__img, 
+.testimonial__square {
   width: 250px;
 }
 
-.testimonial__square{
+.testimonial__square {
   height: 250px;
-  background: var(--first-color);
+  background-color: var(--first-color);
   margin-left: auto;
 }
 
-.testimonial__img{
+.testimonial__img {
   position: absolute;
   right: 2rem;
-  top: 3rem; 
+  top: 3rem;
 }
 
-.testimonial__swiper{
+.testimonial-swiper {
   margin-left: initial;
   margin-right: initial;
 }
 
 .swiper-button-prev:after,
-.swiper-button-next:after{
+.swiper-button-next:after {
   content: '';
 }
 
 /* Swiper class */
 .swiper-button-next,
-.swiper-button-prev{
+.swiper-button-prev {
   top: initial;
   bottom: 5%;
   width: initial;
   height: initial;
-  background: var(--container-color);
+  background-color: var(--container-color);
   box-shadow: 0 4px 12px hsla(0, 0%, 20%, .1);
   padding: .25rem;
   font-size: 1.5rem;
   color: var(--first-color);
 }
 
-.swiper-button-next{
+.swiper-button-next {
   right: initial;
   left: 4rem;
 }
