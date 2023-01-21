@@ -627,7 +627,79 @@ button {
 }
 
 /*=============== NEW ===============*/
+.new__card{
+  position: relative;
+  text-align: center;
+  background: var(--container-color);
+  padding-top: 2rem;
+  border: 1px solid var(--border-color);
+}
 
+.new__tag{
+  background: var(--first-color);
+  padding: .5rem 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  transition: .3s;
+}
+
+.new__img{
+  height: 215px;
+  margin-bottom: var(--mb-1);
+}
+
+.new__title,
+.new__price{
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-bold);
+}
+
+.new__title{
+  text-transform: uppercase;
+  margin-bottom: var(--mb-0-75); 
+}
+
+.new__price{
+  display: block;
+  color: var(--first-color);
+  transition: .3s;
+}
+
+.new__button{
+  font-size: var(--small-font-size);
+  transform: translateY(1rem);
+  opacity: 0;
+  text-transform: uppercase;
+}
+
+.new__card:hover{
+  background: var(--first-color);
+  box-shadow: 0 12px 32px hsla(0, 0%, 20%, .1);
+  padding: 2rem 0 3rem 0;
+}
+
+.new__card:hover .new__tag{
+  background: var(--button-color);
+}
+
+.new__card:hover .new__button{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.new__card:hover .new__title{
+  color: hsl(0, 0%, 15%);
+}
+
+.new__card:hover .new__price{
+  color: hsl(0, 0%, 15%);
+  margin-bottom: var(--mb-1-5);
+}
 
 /*=============== NEWSLETTER ===============*/
 
