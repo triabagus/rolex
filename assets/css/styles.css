@@ -702,7 +702,36 @@ button {
 }
 
 /*=============== NEWSLETTER ===============*/
+.newsletter__bg{
+  background: var(--first-color);
+  padding: 3rem 1.5rem;
+  text-align: center;
+  row-gap: 2.5rem;
+}
 
+.newsletter__title{
+  font-size: var(--h1-font-size);
+  color: hsl(0, 0%, 15%);
+  margin-bottom: var(--mb-1-5);
+}
+
+.newsletter__description{
+  color: hsl(0, 0%, 35%);
+}
+
+.newsletter__subscribe{
+  display: flex;
+  flex-direction: column;
+  row-gap: .75rem;
+}
+
+.newsletter__input{
+  border: none;
+  outline: none;
+  background: hsl(0, 0%, 94%);
+  padding: 1.25rem 1rem;
+  color: hsl(0, 0%, 15%);
+}
 
 /*=============== FOOTER ===============*/
 
