@@ -87,7 +87,13 @@ const scrollActive = () => {
 window.addEventListener('scroll', scrollActive)
 
 /*=============== SHOW SCROLL UP ===============*/ 
-
+const scrollUp = () => {
+    const scrollUp = document.getElementById('scroll-up')
+    // When scroll is higher than 350 viewport height, add the shoe-scroll class to the a tag with the scrollup class
+    this.scrollY >= 350 ? scrollUp.classList.add('show-scroll')
+                        : scrollUp.classList.remove('show-scroll')
+}
+window.addEventListener('scroll', scrollUp)
 
 /*=============== SHOW CART ===============*/
 const cart = document.getElementById('cart'),
