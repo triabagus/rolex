@@ -786,7 +786,7 @@ button {
   bottom: -30%;
   background: var(--container-color);
   display: inline-flex;
-  box-shadow: 0 4px 12px hsla(0, 0%, 20%, .1);
+  box-shadow: 0 4px 12px hsla(0, 0%, 20%, 1);
   padding: .25rem;
   z-index: var(--z-tooltip);
   opacity: .8;
@@ -808,7 +808,14 @@ button {
 }
 
 /*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar{
+  width: .6rem;
+  background: hsl(0, 0%, 74%);
+}
 
+::-webkit-scrollbar-thumb{
+  background: hsl(0, 0%, 17%);
+}
 
 /*=============== CART ===============*/
 .cart{
