@@ -992,5 +992,21 @@ body.dark-theme {
   }
 }
 /* For medium devices */
+@media screen and (min-width: 576px){
+  .home__img-bg{
+    width: 340px;
+  }
+
+  .featured__container{
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .footer__container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
 /* For large devices */
